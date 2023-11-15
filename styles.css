@@ -15,6 +15,7 @@ body {
     /* Positioning the smaller images absolutely within the container */
     .small-image {
         position: absolute;
+        border-radius: 50%;
     }
 
     /* Adjust the positioning of each smaller image */
