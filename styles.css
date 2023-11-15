@@ -23,6 +23,7 @@ body {
         /* Set the width of each image */
         height: auto;
         /* Maintain aspect ratio */
+        border-radius: 20px;
     }
 
 }
