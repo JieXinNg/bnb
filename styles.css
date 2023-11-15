@@ -19,9 +19,9 @@ body {
 
     /* Style for each image */
     .image {
-        width: 80px;
+        width: 160px;
         /* Set the width of each image */
-        height: auto;
+        height: 160px;
         /* Maintain aspect ratio */
         border-radius: 20px;
     }
