@@ -6,16 +6,16 @@ body {
     /* Positioning the container relatively */
     .image-container {
         position: relative;
-        width: 100px;
+        width: 500px;
         /* Set your desired width */
-        height: 60px;
+        height: 300px;
         /* Set your desired height */
     }
 
     /* Positioning the smaller images absolutely within the container */
     .small-image {
         position: absolute;
-        border-radius: 50%;
+        border-radius: 80%;
     }
 
     /* Adjust the positioning of each smaller image */
@@ -24,6 +24,10 @@ body {
         /* Adjust the top position */
         left: 50px;
         /* Adjust the left position */
+        width: 100px;
+        /* Set the width of the image */
+        height: 100px;
+        /* Set the height of the image */
     }
 
     .small-image2 {
@@ -31,6 +35,10 @@ body {
         /* Adjust the top position */
         left: 200px;
         /* Adjust the left position */
+        width: 80px;
+        /* Set the width of the image */
+        height: 80px;
+        /* Set the height of the image */
     }
 
 }
