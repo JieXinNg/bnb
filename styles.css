@@ -12,7 +12,7 @@ body {
         align-items: center;
         width: 500px;
         /* Align items vertically in the center */
-        height: 200px;
+        height: 300px;
         /* Set the height of the container */
         background-color: #f0f0f0;
         /* Optional: Background color for better visibility */
@@ -20,7 +20,7 @@ body {
 
     /* Style for each image */
     .image {
-        width: 300px;
+        width: 200px;
         /* Set the width of each image */
         height: auto;
         /* Maintain aspect ratio */
