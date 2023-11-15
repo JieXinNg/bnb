@@ -3,42 +3,26 @@ body {
     background: whitesmoke;
     text-align: center;
 
-    /* Positioning the container relatively */
+    /* Style for the image container */
     .image-container {
-        position: relative;
-        width: 500px;
-        /* Set your desired width */
-        height: 300px;
-        /* Set your desired height */
+        display: flex;
+        /* Use flexbox for layout */
+        justify-content: space-around;
+        /* Distribute items with equal space around them */
+        align-items: center;
+        /* Align items vertically in the center */
+        height: 400px;
+        /* Set the height of the container */
+        background-color: #f0f0f0;
+        /* Optional: Background color for better visibility */
     }
 
-    /* Positioning the smaller images absolutely within the container */
-    .small-image {
-        position: absolute;
-        border-radius: 80%;
-    }
-
-    /* Adjust the positioning of each smaller image */
-    .small-image1 {
-        top: 550px;
-        /* Adjust the top position */
-        left: 50px;
-        /* Adjust the left position */
-        width: 250px;
-        /* Set the width of the image */
-        height: 250px;
-        /* Set the height of the image */
-    }
-
-    .small-image2 {
-        top: 550px;
-        /* Adjust the top position */
-        left: 200px;
-        /* Adjust the left position */
-        width: 250px;
-        /* Set the width of the image */
-        height: 250px;
-        /* Set the height of the image */
+    /* Style for each image */
+    .image {
+        width: 150px;
+        /* Set the width of each image */
+        height: auto;
+        /* Maintain aspect ratio */
     }
 
 }
