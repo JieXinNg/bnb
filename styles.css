@@ -11,7 +11,7 @@ body {
         /* Distribute items with equal space around them */
         align-items: center;
         /* Align items vertically in the center */
-        height: 250px;
+        height: 200px;
         /* Set the height of the container */
         background-color: #f0f0f0;
         /* Optional: Background color for better visibility */
@@ -19,11 +19,10 @@ body {
 
     /* Style for each image */
     .image {
-        width: 150px;
+        width: 80px;
         /* Set the width of each image */
         height: auto;
         /* Maintain aspect ratio */
-        border-radius: 75%;
     }
 
 }
