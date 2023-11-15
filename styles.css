@@ -20,25 +20,27 @@ body {
 
     /* Adjust the positioning of each smaller image */
     .small-image1 {
-        top: 20px;
+        top: 550px;
         /* Adjust the top position */
-        left: 50px;
+        left: 100px;
         /* Adjust the left position */
-        width: 100px;
+        width: 20px;
         /* Set the width of the image */
-        height: 100px;
+        height: 20px;
         /* Set the height of the image */
+        border-radius: 80%;
     }
 
     .small-image2 {
-        top: 100px;
+        top: 550px;
         /* Adjust the top position */
         left: 200px;
         /* Adjust the left position */
-        width: 80px;
+        width: 20px;
         /* Set the width of the image */
-        height: 80px;
+        height: 20px;
         /* Set the height of the image */
+        border-radius: 80%;
     }
 
 }
