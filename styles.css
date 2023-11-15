@@ -2,4 +2,34 @@ body {
     margin: 0;
     background: pink;
     text-align: center;
+
+    /* Positioning the container relatively */
+    .image-container {
+        position: relative;
+        width: 500px;
+        /* Set your desired width */
+        height: 300px;
+        /* Set your desired height */
+    }
+
+    /* Positioning the smaller images absolutely within the container */
+    .small-image {
+        position: absolute;
+    }
+
+    /* Adjust the positioning of each smaller image */
+    .small-image1 {
+        top: 20px;
+        /* Adjust the top position */
+        left: 50px;
+        /* Adjust the left position */
+    }
+
+    .small-image2 {
+        top: 100px;
+        /* Adjust the top position */
+        left: 200px;
+        /* Adjust the left position */
+    }
+
 }
