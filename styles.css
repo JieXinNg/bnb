@@ -82,4 +82,24 @@ body {
         border-radius: 20px;
         /* Set border radius to create rounded corners */
     }
+
+    /* Style for the text overlaid on the image */
+    .image-text {
+        position: absolute;
+        /* Set position to absolute */
+        top: 50%;
+        /* Position text 50% from the top */
+        left: 50%;
+        /* Position text 50% from the left */
+        transform: translate(-50%, -50%);
+        /* Center text using transform */
+        color: white;
+        /* Text color */
+        font-size: 24px;
+        /* Font size */
+        font-weight: bold;
+        /* Font weight */
+        text-align: center;
+        /* Center text horizontally */
+    }
 }
