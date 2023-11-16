@@ -29,7 +29,7 @@ body {
 
     /* Style for the main container */
     .main-container {
-        display: flex;
+        /* display: flex; */
         /* Use flexbox for layout */
         width: 100%;
         /* Use full width of the viewport */
