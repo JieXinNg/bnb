@@ -34,7 +34,6 @@ body {
         width: 100vw;
         /* Use full width of the viewport */
         height: 30vw;
-        /* Use full viewport height */
     }
 
     /* Style for the left image container */
@@ -83,7 +82,7 @@ body {
     /* Style for the full-width image */
     img.full-width {
         width: 100%;
-        height: auto;
+        height: 100%;
         /* Maintain aspect ratio */
         object-fit: cover;
         /* Cover the entire container */
@@ -99,9 +98,9 @@ body {
         /* Position text 50% from the left */
         transform: translate(-50%, -50%);
         /* Center text using transform */
-        color: white;
+        color: rgb(255, 165, 165)42, 89, 89);
         /* Text color */
-        font-size: 30px;
+        font-size: 60px;
         /* Font size */
         font-weight: bold;
         /* Font weight */
