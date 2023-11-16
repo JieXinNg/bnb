@@ -31,9 +31,9 @@ body {
     .main-container {
         /* display: flex; */
         /* Use flexbox for layout */
-        width: 100%;
+        width: 500px;
         /* Use full width of the viewport */
-        height: 100vh;
+        height: 300px;
         /* Use full viewport height */
     }
 
@@ -101,5 +101,12 @@ body {
         /* Font weight */
         text-align: center;
         /* Center text horizontally */
+    }
+
+    /* Style to display specific elements in one line */
+    .inline-elements {
+        display: inline;
+        margin-right: 20px;
+        /* Add space between elements (adjust as needed) */
     }
 }
