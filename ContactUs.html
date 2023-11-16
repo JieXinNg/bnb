@@ -36,19 +36,18 @@
         }
     </style>
     <script>
-        function showMessage() {
+        function showMessageAndRedirect() {
             alert("Email sent!"); // Display an alert message
-        }
-        function redirectToSamePage() {
+
             // Redirect to the same page after 2 seconds (2000 milliseconds)
             setTimeout(function () {
                 window.location.href = window.location.href;
             }, 2000);
         }
+
         function submitForm() {
-            showMessage()
-            redirectToSamePage(); // Call redirect function
-            return true; // Return true to submit the form
+            showMessageAndRedirect();
+            return form;
         }
 
     </script>
