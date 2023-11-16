@@ -31,9 +31,9 @@ body {
     .main-container {
         /* display: flex; */
         /* Use flexbox for layout */
-        width: 500px;
+        width: 100vw;
         /* Use full width of the viewport */
-        height: 300px;
+        height: 30vw;
         /* Use full viewport height */
     }
 
@@ -78,13 +78,19 @@ body {
         height: auto;
         /* Maintain aspect ratio */
         max-width: 300px;
-        /* Limit maximum width */
-        /* border-radius: 20px; */
-        /* Set border radius to create rounded corners */
     }
 
-    /* Style for the text overlaid on the image */
-    .image-text {
+    /* Style for the full-width image */
+    img.full-width {
+        width: 100%;
+        height: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+        /* Cover the entire container */
+    }
+
+    /* Style for the overlay text */
+    .overlay-text {
         position: absolute;
         /* Set position to absolute */
         top: 50%;
@@ -95,12 +101,14 @@ body {
         /* Center text using transform */
         color: white;
         /* Text color */
-        font-size: 24px;
+        font-size: 30px;
         /* Font size */
         font-weight: bold;
         /* Font weight */
         text-align: center;
         /* Center text horizontally */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        /* Optional: Add text shadow */
     }
 
     /* Style to display specific elements in one line */
