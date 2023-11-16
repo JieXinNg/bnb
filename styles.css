@@ -98,7 +98,7 @@ body {
         /* Position text 50% from the left */
         transform: translate(-50%, -50%);
         /* Center text using transform */
-        color: rgb(255, 165, 165)42, 89, 89);
+        color: rgba(255, 130, 130, 0.7);
         /* Text color */
         font-size: 60px;
         /* Font size */
