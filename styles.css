@@ -73,13 +73,13 @@ body {
 
     /* Style for the square image with rounded corners */
     .right-image {
-        width: 80%;
+        width: 90%;
         /* Set width to 80% of the container */
         height: auto;
         /* Maintain aspect ratio */
         max-width: 300px;
         /* Limit maximum width */
-        border-radius: 20px;
+        /* border-radius: 20px; */
         /* Set border radius to create rounded corners */
     }
 
